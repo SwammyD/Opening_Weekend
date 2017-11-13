@@ -1,0 +1,73 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western,budget,openingweekend
+tt1865346,movie,Detention of the Dead,Detention of the Dead,0,2012,\N,87,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,500000.0,1332.0
+tt1866249,movie,The Sessions,The Sessions,0,2012,\N,95,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,113467.0
+tt1867093,movie,The Samaritan,The Samaritan,0,2012,\N,90,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,12000000.0,1744.0
+tt1872181,movie,The Amazing Spider-Man 2,The Amazing Spider-Man 2,0,2014,\N,142,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,200000000.0,91608337.0
+tt1874513,movie,God Loves Uganda,God Loves Uganda,0,2013,\N,83,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1300000.0,7300.0
+tt1876330,movie,Hello Herman,Hello Herman,0,2012,\N,90,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1500000.0,5985.0
+tt1876373,movie,Lost and Found in Armenia,Lost and Found in Armenia,0,2012,\N,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1200000.0,49829.0
+tt1876451,movie,Sparkle,Sparkle,0,2012,\N,116,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,17000000.0,11643342.0
+tt1877832,movie,X-Men: Days of Future Past,X-Men: Days of Future Past,0,2014,\N,132,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,200000000.0,90823660.0
+tt1878841,movie,The Darkness,The Darkness,0,2016,\N,92,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,4000000.0,4950859.0
+tt1878870,movie,The Edge of Seventeen,The Edge of Seventeen,0,2016,\N,104,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,9000000.0,4754215.0
+tt1880418,movie,Newlyweds,Newlyweds,0,2011,\N,95,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,9000.0,4584.0
+tt1881002,movie,Maggie,Maggie,0,2015,\N,95,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,8500000.0,131175.0
+tt1885300,movie,Best Man Down,Best Man Down,0,2012,\N,89,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1500000.0,60.0
+tt1886493,movie,Catch .44,Catch .44,0,2011,\N,94,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7000000.0,1887.0
+tt1895587,movie,Spotlight,Spotlight,0,2015,\N,128,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,20000000.0,295009.0
+tt1899353,movie,The Raid: Redemption,Serbuan maut,0,2011,\N,101,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1100000.0,213785.0
+tt1904996,movie,Parker,Parker,0,2013,\N,118,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,35000000.0,7008222.0
+tt1905041,movie,Fast & Furious 6,Furious 6,0,2013,\N,130,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,160000000.0,97375245.0
+tt1907639,movie,Hardflip,Hardflip,0,2012,\N,112,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,49879.0
+tt1907688,movie,3 Holes and a Smoking Gun,"Three Holes, Two Brads, and a Smoking Gun",0,2015,\N,90,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,750000.0,18000.0
+tt1911644,movie,The Call,The Call,0,2013,\N,94,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,13000000.0,17118745.0
+tt1911658,movie,Penguins of Madagascar,Penguins of Madagascar,0,2014,\N,92,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,132000000.0,25447444.0
+tt1915581,movie,Magic Mike,Magic Mike,0,2012,\N,110,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7000000.0,39127170.0
+tt1918727,movie,California Solo,California Solo,0,2012,\N,94,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,200000.0,3412.0
+tt1918836,movie,Gottfried Helnwein and the Dreaming Child,Gottfried Helnwein and the Dreaming Child,0,2011,\N,70,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,500000.0,402.0
+tt1920849,movie,Bachelorette,Bachelorette,0,2012,\N,87,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3000000.0,181494.0
+tt1922612,movie,Glee: The 3D Concert Movie,Glee: The 3D Concert Movie,0,2011,\N,84,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,9000000.0,5961231.0
+tt1922685,movie,Phantom,Phantom,0,2013,\N,98,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,18000000.0,508000.0
+tt1922777,movie,Sinister,Sinister,0,2012,\N,110,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,3000000.0,18007634.0
+tt1924435,movie,Let's Be Cops,Let's Be Cops,0,2014,\N,104,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17000000.0,17813722.0
+tt1945062,movie,About Cherry,About Cherry,0,2012,\N,98,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2500000.0,2760.0
+tt1948536,movie,Borderline,Borderline,0,2003,\N,96,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2000.0,1050.0
+tt1951181,movie,The Immigrant,The Immigrant,0,2013,\N,120,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,16000000.0,44064.0
+tt1951264,movie,The Hunger Games: Catching Fire,The Hunger Games: Catching Fire,0,2013,\N,146,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,130000000.0,161125000.0
+tt1951265,movie,The Hunger Games: Mockingjay - Part 1,The Hunger Games: Mockingjay - Part 1,0,2014,\N,123,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,125000000.0,121897634.0
+tt1951266,movie,The Hunger Games: Mockingjay - Part 2,The Hunger Games: Mockingjay - Part 2,0,2015,\N,137,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,160000000.0,102665981.0
+tt1954352,movie,Crooked Arrows,Crooked Arrows,0,2012,\N,105,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,13000000.0,251041.0
+tt1956620,movie,Sex Tape,Sex Tape,0,2014,\N,94,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,40000000.0,14608152.0
+tt1959490,movie,Noah,Noah,0,2014,\N,138,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,125000000.0,43720472.0
+tt1959563,movie,The Hitman's Bodyguard,The Hitman's Bodyguard,0,2017,\N,118,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30000000.0,21384504.0
+tt1964418,movie,Tomorrowland,Tomorrowland,0,2015,\N,130,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,190000000.0,32972000.0
+tt1967614,movie,The Comedian,The Comedian,0,2016,\N,120,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15000000.0,878164.0
+tt1969062,movie,Infinitely Polar Bear,Infinitely Polar Bear,0,2014,\N,90,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,6700000.0,47000.0
+tt1971352,movie,Compliance,Compliance,0,2012,\N,90,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,270000.0,16427.0
+tt1972779,movie,The Best of Me,The Best of Me,0,2014,\N,118,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,26000000.0,10003827.0
+tt1974419,movie,The Neon Demon,The Neon Demon,0,2016,\N,118,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,7000000.0,589014.0
+tt1976608,movie,Sholem Aleichem: Laughing in the Darkness,Sholem Aleichem: Laughing in the Darkness,0,2011,\N,93,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,500000.0,20247.0
+tt1979320,movie,Rush,Rush,0,2013,\N,123,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,38000000.0,187289.0
+tt1980209,movie,Pain & Gain,Pain & Gain,0,2013,\N,129,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,26000000.0,20244505.0
+tt1980959,movie,The Condemned,Los condenados,0,2012,\N,91,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1500000.0,2511.0
+tt1981107,movie,The Young and Prodigious T.S. Spivet,The Young and Prodigious T.S. Spivet,0,2013,\N,105,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33000000.0,33658.0
+tt1981115,movie,Thor: The Dark World,Thor: The Dark World,0,2013,\N,112,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,170000000.0,85737841.0
+tt1981128,movie,Geostorm,Geostorm,0,2017,\N,109,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,120000000.0,65807376.0
+tt1981677,movie,Pitch Perfect,Pitch Perfect,0,2012,\N,112,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,17000000.0,5149433.0
+tt1981703,movie,The Harvest/La Cosecha,The Harvest/La Cosecha,0,2011,\N,80,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,560000.0,2245.0
+tt1985017,movie,Atlas Shrugged II: The Strike,Atlas Shrugged II: The Strike,0,2012,\N,111,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,10000000.0,1746025.0
+tt1985949,movie,The Angry Birds Movie,Angry Birds,0,2016,\N,97,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73000000.0,38155177.0
+tt1985966,movie,Cloudy with a Chance of Meatballs 2,Cloudy with a Chance of Meatballs 2,0,2013,\N,95,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78000000.0,34017930.0
+tt1986769,movie,Alone Yet Not Alone,Alone Yet Not Alone,0,2013,\N,103,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,11000000.0,534626.0
+tt1990181,movie,Brake,Brake,0,2012,\N,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,500000.0,4330.0
+tt1991245,movie,Chernobyl Diaries,Chernobyl Diaries,0,2012,\N,86,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1000000.0,7955307.0
+tt1992193,movie,Pandora's Promise,Pandora's Promise,0,2013,\N,87,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,22495.0
+tt1995341,movie,It's a Disaster,It's a Disaster,0,2012,\N,88,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3000000.0,15305.0
+tt1996264,movie,"For a Good Time, Call...","For a Good Time, Call...",0,2012,\N,85,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,850000.0,143935.0
+tt2002718,movie,Machete Kills,Machete Kills,0,2013,\N,107,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,20000000.0,3837183.0
+tt2005151,movie,War Dogs,War Dogs,0,2016,\N,114,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,40000000.0,14685305.0
+tt2015381,movie,Guardians of the Galaxy,Guardians of the Galaxy,0,2014,\N,121,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,170000000.0,94320883.0
+tt2017020,movie,The Smurfs 2,The Smurfs 2,0,2013,\N,105,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105000000.0,17548389.0
+tt2023587,movie,Mama,Mama,0,2013,\N,100,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,20000000.0,28123052.0
+tt2024432,movie,Identity Thief,Identity Thief,0,2013,\N,111,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35000000.0,34551025.0
+tt2025690,movie,The Finest Hours,The Finest Hours,0,2016,\N,117,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,80000000.0,10288932.0

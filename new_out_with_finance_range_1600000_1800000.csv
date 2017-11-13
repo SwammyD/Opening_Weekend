@@ -1,0 +1,104 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western,budget,openingweekend
+tt1655441,movie,The Age of Adaline,The Age of Adaline,0,2015,\N,112,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,25000000.0,13203458.0
+tt1655442,movie,The Artist,The Artist,0,2011,\N,100,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,15000000.0,204878.0
+tt1655461,movie,Wild Oats,Wild Oats,0,2016,\N,86,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000000.0,21554.0
+tt1655603,movie,Evil Intent,Evil Intent,0,2010,\N,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2000.0,1500.0
+tt1656186,movie,Stolen,Stolen,0,2012,\N,96,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,35000000.0,183125.0
+tt1656190,movie,Safe,Safe,0,2012,\N,94,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,30000000.0,7892539.0
+tt1657507,movie,Colombiana,Colombiana,0,2011,\N,108,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,40000000.0,10408176.0
+tt1657510,movie,Gimme Shelter,Gimme Shelter,0,2013,\N,101,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3300000.0,689091.0
+tt1658801,movie,Freeheld,Freeheld,0,2015,\N,103,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,7000000.0,37983.0
+tt1659337,movie,The Perks of Being a Wallflower,The Perks of Being a Wallflower,0,2012,\N,102,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,13000000.0,228359.0
+tt1659343,movie,Universal Soldier: Day of Reckoning,Universal Soldier: Day of Reckoning,0,2012,\N,114,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,11500000.0,3181.0
+tt1661382,movie,Grudge Match,Grudge Match,0,2013,\N,113,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,40000000.0,7310000.0
+tt1662293,movie,Nothing Left to Fear,Nothing Left to Fear,0,2013,\N,100,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3000000.0,7886.0
+tt1663143,movie,Fun Size,Fun Size,0,2012,\N,86,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14000000.0,4101017.0
+tt1663202,movie,The Revenant,The Revenant,0,2015,\N,156,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,135000000.0,38000000.0
+tt1663207,movie,Life of Crime,Life of Crime,0,2013,\N,98,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12000000.0,131422.0
+tt1666186,movie,Vampires Suck,Vampires Suck,0,2010,\N,82,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,20000000.0,12202831.0
+tt1666801,movie,The DUFF,The DUFF,0,2015,\N,101,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8500000.0,10809149.0
+tt1667310,movie,Deadfall,Deadfall,0,2012,\N,95,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,12000000.0,19391.0
+tt1667353,movie,Mirror Mirror,Mirror Mirror,0,2012,\N,106,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,85000000.0,18132085.0
+tt1667889,movie,Ice Age: Continental Drift,Ice Age: Continental Drift,0,2012,\N,88,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95000000.0,46629259.0
+tt1675192,movie,Take Shelter,Take Shelter,0,2011,\N,121,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,5000000.0,52041.0
+tt1706687,movie,Monumental: In Search of America's National Treasure,Monumental: In Search of America's National Treasure,0,2012,\N,90,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,500000.0,28340.0
+tt1710469,movie,Seasons of Gray,Seasons of Gray,0,2013,\N,90,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,500000.0,11714.0
+tt1711525,movie,Office Christmas Party,Office Christmas Party,0,2016,\N,105,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45000000.0,17500000.0
+tt1712261,movie,Triple 9,Triple 9,0,2016,\N,115,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,20000000.0,6109085.0
+tt1714206,movie,The Spectacular Now,The Spectacular Now,0,2013,\N,95,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2500000.0,197415.0
+tt1714915,movie,Only Lovers Left Alive,Only Lovers Left Alive,0,2013,\N,123,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,7000000.0,87989.0
+tt1716760,movie,Raymond Did It,Raymond Did It,0,2011,\N,83,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,40000.0,3192.0
+tt1716777,movie,People Like Us,People Like Us,0,2012,\N,114,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16000000.0,4255423.0
+tt1718898,movie,Snake & Mongoose,Snake & Mongoose,0,2013,\N,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3000000.0,12089.0
+tt1720172,movie,Munger Road,Munger Road,0,2011,\N,86,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,200000.0,36605.0
+tt1720182,movie,October Baby,October Baby,0,2011,\N,107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,1697130.0
+tt1720616,movie,Friends with Kids,Friends with Kids,0,2011,\N,107,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,10000000.0,2017466.0
+tt1723121,movie,We're the Millers,We're the Millers,0,2013,\N,110,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37000000.0,26419396.0
+tt1723811,movie,Shame,Shame,0,2011,\N,101,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6500000.0,349519.0
+tt1726589,movie,L!fe Happens,L!fe Happens,0,2011,\N,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,930000.0,20186.0
+tt1726592,movie,Before I Go to Sleep,Before I Go to Sleep,0,2014,\N,92,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,22000000.0,1843347.0
+tt1726669,movie,Killer Joe,Killer Joe,0,2011,\N,102,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,11000000.0,37864.0
+tt1726888,movie,Clandestine Childhood,Infancia clandestina,0,2011,\N,112,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1009653.0,880.0
+tt1727388,movie,The Way Way Back,The Way Way Back,0,2013,\N,103,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5000000.0,552788.0
+tt1727491,movie,"Connected: An Autoblogography About Love, Death & Technology","Connected: An Autoblogography About Love, Death & Technology",0,2011,\N,82,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1300000.0,13301.0
+tt1727776,movie,Scouts Guide to the Zombie Apocalypse,Scouts Guide to the Zombie Apocalypse,0,2015,\N,93,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,15000000.0,1841007.0
+tt1730768,movie,The Zookeeper's Wife,The Zookeeper's Wife,0,2017,\N,127,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,20000000.0,3288835.0
+tt1731141,movie,Ender's Game,Ender's Game,0,2013,\N,114,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,110000000.0,27017351.0
+tt1731697,movie,The Lords of Salem,The Lords of Salem,0,2012,\N,101,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,2500000.0,642000.0
+tt1735898,movie,Snow White and the Huntsman,Snow White and the Huntsman,0,2012,\N,127,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,170000000.0,56217700.0
+tt1738305,movie,Pizza Shop: The Movie,Pizza Shop: The Movie,0,2013,\N,97,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50000.0,1000.0
+tt1741243,movie,Pawn Shop Chronicles,Pawn Shop Chronicles,0,2013,\N,112,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5000000.0,4915.0
+tt1742044,movie,Jersey Boys,Jersey Boys,0,2014,\N,134,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,40000000.0,13319371.0
+tt1742334,movie,Sabotage,Sabotage,0,2014,\N,109,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,35000000.0,5272444.0
+tt1742336,movie,Your Sister's Sister,Your Sister's Sister,0,2011,\N,90,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,125000.0,109221.0
+tt1742650,movie,I Don't Know How She Does It,I Don't Know How She Does It,0,2011,\N,89,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,24000000.0,4402201.0
+tt1743720,movie,The Greatest Movie Ever Sold,The Greatest Movie Ever Sold,0,2011,\N,90,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1500000.0,118294.0
+tt1747958,movie,Blood Ties,Blood Ties,0,2013,\N,127,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,25500000.0,26912.0
+tt1748016,movie,Brother's Keeper,Brother's Keeper,0,2013,\N,118,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000.0,115030.0
+tt1748122,movie,Moonrise Kingdom,Moonrise Kingdom,0,2012,\N,94,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16000000.0,522996.0
+tt1748199,movie,Silver Circle,Silver Circle,0,2013,\N,90,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1600000.0,1314.0
+tt1748227,movie,The Collection,The Collection,0,2012,\N,82,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,10000000.0,3104269.0
+tt1753383,movie,A Dog's Purpose,A Dog's Purpose,0,2017,\N,100,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22000000.0,18222810.0
+tt1754633,movie,The Ghastly Love of Johnny X,The Ghastly Love of Johnny X,0,2012,\N,106,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,2000000.0,86.0
+tt1754656,movie,The Little Prince,The Little Prince,0,2015,\N,108,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,81200000.0,28140.0
+tt1758575,movie,Blue Like Jazz,Blue Like Jazz,0,2012,\N,108,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1200000.0,258653.0
+tt1758595,movie,Diana,Diana,0,2013,\N,113,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,15000000.0,67754.0
+tt1758610,movie,Unconditional,Unconditional,0,2012,\N,92,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2000000.0,525192.0
+tt1758692,movie,Like Crazy,Like Crazy,0,2011,\N,86,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,250000.0,123140.0
+tt1758830,movie,This Is 40,This Is 40,0,2012,\N,134,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,35000000.0,12030690.0
+tt1761005,movie,Persecuted,Persecuted,0,2014,\N,91,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1500000.0,851391.0
+tt1763264,movie,No One Lives,No One Lives,0,2012,\N,86,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,2900000.0,47798.0
+tt1763303,movie,The First Time,The First Time,0,2012,\N,95,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2000000.0,17061.0
+tt1764183,movie,Arbitrage,Arbitrage,0,2012,\N,107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,12000000.0,2002165.0
+tt1764234,movie,Killing Them Softly,Killing Them Softly,0,2012,\N,97,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,15000000.0,6812900.0
+tt1765729,movie,Brigada: Naslednik,Brigada: Naslednik,0,2012,\N,120,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4500000.0,7882086.0
+tt1772240,movie,Apollo 18,Apollo 18,0,2011,\N,86,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,5000000.0,8704271.0
+tt1773109,movie,Yamla Pagla Deewana,Yamla Pagla Deewana,0,2011,\N,163,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4340000.0,504116.0
+tt1773755,movie,The Pendant,The Pendant,0,2010,\N,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,600.0,1756.0
+tt1780762,movie,Aftershock,Aftershock,0,2012,\N,89,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2000000.0,40179.0
+tt1780798,movie,Clown,Clown,0,2014,\N,100,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1500000.0,26920.0
+tt1781784,movie,Burn,Burn,0,2012,\N,86,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,225000.0,1970.0
+tt1781922,movie,No Escape,No Escape,0,2015,\N,103,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,16200000.0,8111264.0
+tt1785669,movie,Vikingdom,Vikingdom,0,2013,\N,114,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,15600000.0,263500.0
+tt1786751,movie,CBGB,CBGB,0,2013,\N,101,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,5000000.0,4000.0
+tt1787759,movie,Madea's Big Happy Family,Madea's Big Happy Family,0,2011,\N,106,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25000000.0,25068677.0
+tt1787988,movie,Talaash,Talaash,0,2012,\N,140,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,7395080.0,1638706.0
+tt1790809,movie,Pirates of the Caribbean: Dead Men Tell No Tales,Pirates of the Caribbean: Dead Men Tell No Tales,0,2017,\N,129,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,230000000.0,62983253.0
+tt1790864,movie,The Maze Runner,The Maze Runner,0,2014,\N,113,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,34000000.0,32512804.0
+tt1791528,movie,Inherent Vice,Inherent Vice,0,2014,\N,148,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,20000000.0,2773260.0
+tt1798709,movie,Her,Her,0,2013,\N,126,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,23000000.0,260382.0
+tt1800241,movie,American Hustle,American Hustle,0,2013,\N,138,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,40000000.0,740455.0
+tt1800246,movie,That Awkward Moment,That Awkward Moment,0,2014,\N,94,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8000000.0,8742109.0
+tt1800741,movie,Step Up Revolution,Step Up Revolution,0,2012,\N,99,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,33000000.0,11731708.0
+tt1807944,movie,As I Lay Dying,As I Lay Dying,0,2013,\N,110,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5000000.0,7143.0
+tt1815799,movie,Beloved,Les bien-aimés,0,2011,\N,133,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,9980000.0,25825.0
+tt1821658,movie,The Nut Job,The Nut Job,0,2014,\N,85,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42000000.0,20550000.0
+tt1821694,movie,RED 2,RED 2,0,2013,\N,116,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84000000.0,18048422.0
+tt1823664,movie,Annie,Annie,0,2014,\N,118,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,65000000.0,15861939.0
+tt1823672,movie,Chappie,Chappie,0,2015,\N,120,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,49000000.0,13346782.0
+tt1826590,movie,About Last Night,About Last Night,0,2014,\N,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12500000.0,27838201.0
+tt1828959,movie,Make Your Move,Make Your Move,0,2013,\N,110,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,15000000.0,81172.0
+tt1829012,movie,Passion,Passion,0,2012,\N,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,20000000.0,40100.0
+tt1837709,movie,Winter's Tale,Winter's Tale,0,2014,\N,118,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,60000000.0,8007059.0
+tt1839492,movie,Ruby Sparks,Ruby Sparks,0,2012,\N,104,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,8000000.0,140822.0
+tt1855401,movie,Tim and Eric's Billion Dollar Movie,Tim and Eric's Billion Dollar Movie,0,2012,\N,93,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3000000.0,87475.0

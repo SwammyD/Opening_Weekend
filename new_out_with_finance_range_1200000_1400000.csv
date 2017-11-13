@@ -1,0 +1,55 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western,budget,openingweekend
+tt1240982,movie,Your Highness,Your Highness,0,2011,\N,102,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,49900000.0,9360020.0
+tt1241226,movie,Locker 13,Locker 13,0,2014,\N,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,300000.0,2468.0
+tt1242432,movie,I Spit on Your Grave,I Spit on Your Grave,0,2010,\N,108,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,2000000.0,32064.0
+tt1242460,movie,We Need to Talk About Kevin,We Need to Talk About Kevin,0,2011,\N,112,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,7000000.0,42245.0
+tt1242544,movie,Last Day of Summer,Last Day of Summer,0,2009,\N,85,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5000000.0,30700.0
+tt1242592,movie,Ashland,Ashland,0,2009,\N,111,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,575000.0
+tt1242599,movie,Bellflower,Bellflower,0,2011,\N,106,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,17000.0,22279.0
+tt1243630,movie,Fancypants,Fancypants,0,2011,\N,87,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1200000.0,4227.0
+tt1243957,movie,The Tourist,The Tourist,0,2010,\N,103,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,100000000.0,16472458.0
+tt1243974,movie,Aloha,Aloha,0,2015,\N,105,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,37000000.0,9670235.0
+tt1244659,movie,Extraordinary Measures,Extraordinary Measures,0,2010,\N,106,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,31000000.0,6012594.0
+tt1245112,movie,[Rec] 2,[Rec]²,0,2009,\N,85,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,5600000.0,8191.0
+tt1245526,movie,RED,RED,0,2010,\N,111,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58000000.0,21761408.0
+tt1247644,movie,Breaking Upwards,Breaking Upwards,0,2009,\N,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15000.0,15467.0
+tt1247667,movie,High School,High School,0,2010,\N,99,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,239034.0
+tt1247690,movie,Serena,Serena,0,2014,\N,109,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,30000000.0,100090.0
+tt1247692,movie,Shrink,Shrink,0,2009,\N,104,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5100000.0,16443.0
+tt1250777,movie,Kick-Ass,Kick-Ass,0,2010,\N,117,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30000000.0,19828687.0
+tt1251743,movie,Salvation Boulevard,Salvation Boulevard,0,2011,\N,96,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,9000000.0,7208.0
+tt1251757,movie,Middle Men,Middle Men,0,2009,\N,105,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22000000.0,325641.0
+tt1252329,movie,Redwoods,Redwoods,0,2009,\N,82,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,115000.0,987.0
+tt1253863,movie,300: Rise of an Empire,300: Rise of an Empire,0,2014,\N,102,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,110000000.0,45038460.0
+tt1253864,movie,Immortals,Immortals,0,2011,\N,110,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,75000000.0,32206425.0
+tt1257562,movie,Hadewijch,Hadewijch,0,2009,\N,105,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4600000.0,1892.0
+tt1258972,movie,The Man with the Iron Fists,The Man with the Iron Fists,0,2012,\N,95,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15000000.0,7910980.0
+tt1259521,movie,The Cabin in the Woods,The Cabin in the Woods,0,2012,\N,95,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,30000000.0,14743614.0
+tt1262416,movie,Scream 4,Scream 4,0,2011,\N,111,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,40000000.0,18692090.0
+tt1268962,movie,Drool,Drool,0,2009,\N,85,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,1199.0
+tt1338675,movie,The Suitcase,The Suitcase,0,2009,\N,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,48000.0,1255.0
+tt1340138,movie,Terminator Genisys,Terminator Genisys,0,2015,\N,126,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,155000000.0,27018486.0
+tt1342122,movie,Queen of the Lot,Queen of the Lot,0,2010,\N,120,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,500000.0,22726.0
+tt1342852,movie,Detox,Detox,0,2009,\N,85,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,2500.0
+tt1343092,movie,The Great Gatsby,The Great Gatsby,0,2013,\N,143,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,105000000.0,50085184.0
+tt1343727,movie,Dredd,Dredd,0,2012,\N,95,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,35000000.0,6278491.0
+tt1344337,movie,Reuniting the Rubins,Reuniting the Rubins,0,2010,\N,97,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,7500000.0,734.0
+tt1344607,movie,Flying Saucer Rock 'N' Roll,Flying Saucer Rock 'N' Roll,0,2006,\N,85,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1000.0,250000.0
+tt1345836,movie,The Dark Knight Rises,The Dark Knight Rises,0,2012,\N,164,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,250000000.0,160887295.0
+tt1346690,movie,Music Makes a City: A Louisville Orchestra Story,Music Makes a City: A Louisville Orchestra Story,0,2010,\N,103,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,5129.0
+tt1348318,movie,Protektor,Protektor,0,2009,\N,98,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3000000.0,2968.0
+tt1349485,movie,The Knife of Don Juan,La navaja de Don Juan,0,2013,\N,99,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1200000.0,656.0
+tt1352824,movie,Chloe,Chloe,0,2009,\N,96,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,11000000.0,900688.0
+tt1354687,movie,Feed the Fish,Feed the Fish,0,2009,\N,92,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,240000.0,2463.0
+tt1355623,movie,Bluebeard,Barbe bleue,0,2009,\N,80,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2400000.0,8370.0
+tt1355630,movie,If I Stay,If I Stay,0,2014,\N,107,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,11000000.0,15679190.0
+tt1355631,movie,The Infiltrator,The Infiltrator,0,2016,\N,127,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,28000000.0,5303775.0
+tt1355644,movie,Passengers,Passengers,0,2016,\N,116,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,110000000.0,14869736.0
+tt1361313,movie,The Extra Man,The Extra Man,0,2010,\N,108,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7000000.0,18861.0
+tt1368465,movie,Next Door to the Velinsky's,Next Door to the Velinsky's,0,2011,\N,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1000000.0,10500.0
+tt1371111,movie,Cloud Atlas,Cloud Atlas,0,2012,\N,172,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,102000000.0,9612247.0
+tt1374989,movie,Pride and Prejudice and Zombies,Pride and Prejudice and Zombies,0,2016,\N,108,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,28000000.0,5324240.0
+tt1381404,movie,The Company You Keep,The Company You Keep,0,2012,\N,125,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,2000000.0,131718.0
+tt1390411,movie,In the Heart of the Sea,In the Heart of the Sea,0,2015,\N,122,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100000000.0,11053366.0
+tt1430626,movie,The Pirates! Band of Misfits,The Pirates! In an Adventure with Scientists!,0,2012,\N,88,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55000000.0,11137734.0
+tt1431045,movie,Deadpool,Deadpool,0,2016,\N,108,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58000000.0,135050000.0

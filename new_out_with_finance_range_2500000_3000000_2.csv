@@ -1,0 +1,67 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western,budget,openingweekend
+tt2888046,movie,Ip Man 3,Yip Man 3,0,2015,\N,105,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,36000000.0,784839.0
+tt2891174,movie,99 Homes,99 Homes,0,2014,\N,112,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8000000.0,32253.0
+tt2893490,movie,Manglehorn,Manglehorn,0,2014,\N,97,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4000000.0,13000.0
+tt2897642,movie,Evergreen: The Road to Legalization,Evergreen: The Road to Legalization in Washington,0,2013,\N,86,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,270000.0,189.0
+tt2902740,movie,Legenda,Legenda,0,2012,\N,65,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,7.0,200.0
+tt2908446,movie,Insurgent,Insurgent,0,2015,\N,119,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,110000000.0,52263680.0
+tt2908856,movie,My Old Lady,My Old Lady,0,2014,\N,107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,5000000.0,124680.0
+tt2910814,movie,The Signal,The Signal,0,2014,\N,97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,4000000.0,155642.0
+tt2911342,movie,Dragon Nest: Warriors' Dawn,Dragon Nest: Warriors' Dawn,0,2014,\N,88,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,40000000.0,5690000.0
+tt2911666,movie,John Wick,John Wick,0,2014,\N,101,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,20000000.0,14415922.0
+tt2913948,movie,Whensday,Whensday,0,2013,\N,100,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4000.0,12497.0
+tt2914838,movie,R100,R100,0,2013,\N,99,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5500000.0,7263.0
+tt2918436,movie,The Lazarus Effect,The Lazarus Effect,0,2015,\N,83,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,3300000.0,10203437.0
+tt2920808,movie,God's Pocket,God's Pocket,0,2014,\N,88,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,23400.0
+tt2933544,movie,5 Flights Up,5 Flights Up,0,2014,\N,88,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6000000.0,238491.0
+tt2937898,movie,A Most Violent Year,A Most Violent Year,0,2014,\N,125,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,20000000.0,1512224.0
+tt2938956,movie,The Transporter Refueled,The Transporter Refueled,0,2015,\N,96,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25000000.0,7130000.0
+tt2948356,movie,Zootopia,Zootopia,0,2016,\N,108,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150000000.0,75063401.0
+tt2950418,movie,Greater,Greater,0,2016,\N,130,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,9000000.0,627674.0
+tt2952602,movie,Kung Fu Jungle,Yi ge ren de wu lin,0,2014,\N,100,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25000000.0,58664.0
+tt2955096,movie,Happy Christmas,Happy Christmas,0,2014,\N,82,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,70000.0,7523.0
+tt2974918,movie,Alvin and the Chipmunks: The Road Chip,Alvin and the Chipmunks: The Road Chip,0,2015,\N,92,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90000000.0,14287159.0
+tt2975578,movie,The Purge: Anarchy,The Purge: Anarchy,0,2014,\N,103,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,9000000.0,29816675.0
+tt2975590,movie,Batman v Superman: Dawn of Justice,Batman v Superman: Dawn of Justice,0,2016,\N,151,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,250000000.0,166007347.0
+tt2978102,movie,Term Life,Term Life,0,2016,\N,93,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,16500000.0,13040.0
+tt2980592,movie,The Guest,The Guest,0,2014,\N,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,5000000.0,84527.0
+tt2980648,movie,The Hundred-Foot Journey,The Hundred-Foot Journey,0,2014,\N,122,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,22000000.0,11123000.0
+tt3007512,movie,The Water Diviner,The Water Diviner,0,2014,\N,111,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,22500000.0,1220335.0
+tt3014866,movie,Criminal,Criminal,0,2016,\N,113,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,31500000.0,5767278.0
+tt3018070,movie,Stonewall,Stonewall,0,2015,\N,129,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,13500000.0,112414.0
+tt3099498,movie,Tusk,Tusk,0,2014,\N,102,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,3000000.0,846831.0
+tt3103166,movie,The Masked Saint,The Masked Saint,0,2016,\N,105,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3500000.0,123777.0
+tt3110770,movie,Road Hard,Road Hard,0,2015,\N,98,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1500000.0,105943.0
+tt3110958,movie,Now You See Me 2,Now You See Me 2,0,2016,\N,129,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,90000000.0,22383146.0
+tt3121434,movie,Yolki 3,Yolki 3,0,2013,\N,100,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,5000000.0,12000000.0
+tt3125324,movie,Beyond the Lights,Beyond the Lights,0,2014,\N,116,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,7000000.0,6500000.0
+tt3135556,movie,Jimmy Vestvood: Amerikan Hero,Jimmy Vestvood: Amerikan Hero,0,2016,\N,84,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2500000.0,60860.0
+tt3147312,movie,Desierto,Desierto,0,2015,\N,88,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,3000000.0,514282.0
+tt3148834,movie,Thunder and the House of Magic,The House of Magic,0,2013,\N,85,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34000000.0,4091.0
+tt3152624,movie,Trainwreck,Trainwreck,0,2015,\N,125,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,35000000.0,30097040.0
+tt3164256,movie,Rock the Kasbah,Rock the Kasbah,0,2015,\N,106,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,15000000.0,1470592.0
+tt3165608,movie,Justin Bieber's Believe,Justin Bieber's Believe,0,2013,\N,92,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5000000.0,573566.0
+tt3172532,movie,The Diary of a Teenage Girl,The Diary of a Teenage Girl,0,2015,\N,102,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2000000.0,52334.0
+tt3179568,movie,"Men, Women & Children","Men, Women & Children",0,2014,\N,119,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,16000000.0,47553.0
+tt3181822,movie,The Boy Next Door,The Boy Next Door,0,2015,\N,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,4000000.0,14910105.0
+tt3182620,movie,Bitter Harvest,Bitter Harvest,0,2017,\N,103,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,20000000.0,219357.0
+tt3203606,movie,Trumbo,Trumbo,0,2015,\N,124,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15000000.0,74177.0
+tt3300542,movie,London Has Fallen,London Has Fallen,0,2016,\N,99,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,60000000.0,21635601.0
+tt3322364,movie,Concussion,Concussion,0,2015,\N,123,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,35000000.0,10513749.0
+tt3399024,movie,Samba,Samba,0,2014,\N,118,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,20000000.0,39041.0
+tt3416828,movie,Ice Age: Collision Course,Ice Age: Collision Course,0,2016,\N,94,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,105000000.0,21373064.0
+tt3442006,movie,Cake,Cake,0,2014,\N,102,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7000000.0,916179.0
+tt3450900,movie,The Sea of Trees,The Sea of Trees,0,2015,\N,110,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25000000.0,1877.0
+tt3450958,movie,War for the Planet of the Apes,War for the Planet of the Apes,0,2017,\N,140,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,150000000.0,56262929.0
+tt3453052,movie,10 Days in a Madhouse,10 Days in a Madhouse,0,2015,\N,111,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1200000.0,2451.0
+tt3457376,movie,Censored Voices,Censored Voices,0,2015,\N,84,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,450000.0,6153.0
+tt3460252,movie,The Hateful Eight,The Hateful Eight,0,2015,\N,187,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,44000000.0,16240000.0
+tt3462710,movie,Unforgettable,Unforgettable,0,2017,\N,100,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,12000000.0,4785431.0
+tt3466248,movie,How to Save Us,How to Save Us,0,2014,\N,78,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,20000.0,2985.0
+tt3469046,movie,Despicable Me 3,Despicable Me 3,0,2017,\N,90,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80000000.0,72434025.0
+tt3469244,movie,Phantom,Phantom,0,2015,\N,136,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,7500000.0,1874592.0
+tt3470600,movie,Sing,Sing,0,2016,\N,108,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,75000000.0,35258145.0
+tt3477172,movie,Restored Me,Restored Me,0,2016,\N,135,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,750000.0,1316.0
+tt3486626,movie,The Nut Job 2: Nutty by Nature,The Nut Job 2: Nutty by Nature,0,2017,\N,91,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40000000.0,8342311.0
+tt3488710,movie,The Walk,The Walk,0,2015,\N,123,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35000000.0,1560299.0
+tt3498820,movie,Captain America: Civil War,Captain America: Civil War,0,2016,\N,147,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,250000000.0,179139142.0

@@ -1,0 +1,62 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western,budget,openingweekend
+tt2071441,movie,Dangerous Liaisons,Wi-heom-han gyan-gye,0,2012,\N,110,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,31000000.0,18027.0
+tt2072040,movie,All in the Game,All in the Game,0,2011,\N,75,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1700.0,1143.0
+tt2072233,movie,Sleepless,Sleepless,0,2017,\N,95,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,30000000.0,8468787.0
+tt2077851,movie,Sleepwalk with Me,Sleepwalk with Me,0,2012,\N,81,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,322677.0
+tt2080374,movie,Steve Jobs,Steve Jobs,0,2015,\N,122,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,30000000.0,521522.0
+tt2081367,movie,So This Is Christmas,So This Is Christmas,0,2013,\N,115,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,5625000.0,2987.0
+tt2082155,movie,Looking for Maria Sanchez,200 Cartas,0,2013,\N,98,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1000000.0,6733.0
+tt2083355,movie,The Best Man Holiday,The Best Man Holiday,0,2013,\N,123,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,17000000.0,30593000.0
+tt2083383,movie,Trouble with the Curve,Trouble with the Curve,0,2012,\N,111,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,60000000.0,12162040.0
+tt2084970,movie,The Imitation Game,The Imitation Game,0,2014,\N,114,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,14000000.0,7932292.0
+tt2084989,movie,Upstream Color,Upstream Color,0,2013,\N,96,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,50000.0,28649.0
+tt2087986,movie,The Prince of Town,The Prince of Town,0,2011,\N,110,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,100000.0,250000.0
+tt2091256,movie,Captain Underpants: The First Epic Movie,Captain Underpants: The First Epic Movie,0,2017,\N,89,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38000000.0,23851539.0
+tt2091473,movie,Promised Land,Promised Land,0,2012,\N,106,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15000000.0,173915.0
+tt2091935,movie,Mr. Right,Mr. Right,0,2015,\N,95,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8000000.0,25369.0
+tt2093269,movie,The Prophet's Son,The Prophet's Son,0,2012,\N,97,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2750000.0,8100.0
+tt2095649,movie,Grace of Monaco,Grace of Monaco,0,2014,\N,103,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,30000000.0,401766.0
+tt2097298,movie,"McFarland, USA","McFarland, USA",0,2015,\N,129,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,17000000.0,11020798.0
+tt2097307,movie,Hit and Run,Hit and Run,0,2012,\N,100,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2000000.0,5900000.0
+tt2101341,movie,Dead Man Down,Dead Man Down,0,2013,\N,118,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,30000000.0,5345250.0
+tt2101441,movie,Spring Breakers,Spring Breakers,0,2012,\N,94,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5000000.0,263002.0
+tt2103227,movie,Otter 501,Otter 501,0,2012,\N,85,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,5444.0
+tt2103254,movie,Tammy,Tammy,0,2014,\N,97,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20000000.0,21577049.0
+tt2103267,movie,Adore,Adoration,0,2013,\N,112,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,16000000.0,19646.0
+tt2106361,movie,Into the Storm,Into the Storm,0,2014,\N,89,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,50000000.0,18015000.0
+tt2106476,movie,The Hunt,Jagten,0,2012,\N,115,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3800000.0,43045.0
+tt2109184,movie,Paranormal Activity 4,Paranormal Activity 4,0,2012,\N,88,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5000000.0,29003866.0
+tt2125666,movie,The Queen of Versailles,The Queen of Versailles,0,2012,\N,100,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,51326.0
+tt2194499,movie,About Time,About Time,0,2013,\N,123,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,12000000.0,1076250.0
+tt2205401,movie,Addicted,Addicted,0,2014,\N,106,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,5000000.0,7485346.0
+tt2207006,movie,The Obama Effect,The Obama Effect,0,2012,\N,85,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10000000.0,73000.0
+tt2304933,movie,The 5th Wave,The 5th Wave,0,2016,\N,112,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,38000000.0,10326356.0
+tt2318527,movie,Hell Baby,Hell Baby,0,2013,\N,98,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2500000.0,4980.0
+tt2389182,movie,Cheap Thrills,Cheap Thrills,0,2013,\N,88,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,200000.0,18638.0
+tt2403393,movie,Desert Dancer,Desert Dancer,0,2014,\N,104,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4000000.0,40763.0
+tt2404311,movie,The Family,The Family,0,2013,\N,111,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,30000000.0,14034764.0
+tt2404425,movie,Woman in Gold,Woman in Gold,0,2015,\N,109,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,11000000.0,2091551.0
+tt2404461,movie,The Past,Le passé,0,2013,\N,130,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,11000000.0,29270.0
+tt2406566,movie,Atomic Blonde,Atomic Blonde,0,2017,\N,115,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,30000000.0,18286420.0
+tt2414046,movie,The Amazing Catfish,Los insólitos peces gato,0,2013,\N,89,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1300000.0,733.0
+tt2515030,movie,Escobar: Paradise Lost,Escobar: Paradise Lost,0,2014,\N,120,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,17000000.0,106869.0
+tt2515034,movie,The Gunman,The Gunman,0,2015,\N,115,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,40000000.0,5028702.0
+tt2515086,movie,One Direction: This Is Us,One Direction: This Is Us,0,2013,\N,92,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,10000000.0,18472875.0
+tt2520398,movie,Assaulted: Civil Rights Under Fire,Assaulted: Civil Rights Under Fire,0,2013,\N,79,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175000.0,4570.0
+tt2527660,movie,Foxfur,Foxfur,0,2012,\N,61,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,500000.0,9600000.0
+tt2528814,movie,God's Not Dead,God's Not Dead,0,2014,\N,113,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2000000.0,9244641.0
+tt2543164,movie,Arrival,Arrival,0,2016,\N,116,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,47000000.0,24000000.0
+tt2547584,movie,The Light Between Oceans,The Light Between Oceans,0,2016,\N,133,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,20000000.0,4765838.0
+tt2552316,movie,Sagrada: The Mystery of Creation,Sagrada: El misteri de la creació,0,2012,\N,89,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000000.0,2009.0
+tt2555736,movie,The Second Best Exotic Marigold Hotel,The Second Best Exotic Marigold Hotel,0,2015,\N,122,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10000000.0,8540370.0
+tt2557490,movie,A Million Ways to Die in the West,A Million Ways to Die in the West,0,2014,\N,116,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,40000000.0,17069000.0
+tt2562232,movie,Birdman or (The Unexpected Virtue of Ignorance),Birdman or (The Unexpected Virtue of Ignorance),0,2014,\N,119,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,18000000.0,2471471.0
+tt2566644,movie,Seoul Searching,Seoul Searching,0,2015,\N,105,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2100000.0,8966.0
+tt2567026,movie,Alice Through the Looking Glass,Alice Through the Looking Glass,0,2016,\N,113,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,170000000.0,28112000.0
+tt2568862,movie,Going in Style,Going in Style,0,2017,\N,96,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25000000.0,11932330.0
+tt2570858,movie,The Duke of Burgundy,The Duke of Burgundy,0,2014,\N,104,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1000000.0,13000.0
+tt2580416,movie,Shirin,Shirin,0,2012,\N,94,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,300000.0,25000.0
+tt2609912,movie,Kevin Hart: Let Me Explain,Kevin Hart: Let Me Explain,0,2013,\N,75,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2500000.0,10030463.0
+tt2660888,movie,Star Trek: Beyond,Star Trek: Beyond,0,2016,\N,122,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,185000000.0,59253211.0
+tt2673854,movie,Midget Zombie Takeover,Midget Zombie Takeover,0,2013,\N,73,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2000.0,2755.0
+tt2788710,movie,The Interview,The Interview,0,2014,\N,112,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44000000.0,1085515.0
