@@ -8,10 +8,15 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import random
 import pandas as pd
+import locale
+locale.setlocale( locale.LC_ALL, '' )
+pd.options.mode.chained_assignment = None
 
+print('Reading in Data')
 prejoined = pd.read_csv("joined_100.csv")
 actors = pd.read_csv("/Users/matthewgriswold/Desktop/Year4/EECS338/IMDB_Files/title.principals.tsv", delimiter='\t')
 
+print("Begin Merging and Formaing Data")
 # def cleanHumans(commanstr):
 # 	return commanstr.split(",")
 
@@ -54,7 +59,9 @@ del actors['principalCast']
 joined = pd.merge(prejoined, actors,  how='left', on='tconst')
 #joined['humans'] = joined['principalCast'].split(",")
 
-floatdf = joined.copy()
+#print(len(joined.index))
+floatdf = joined.drop_duplicates(subset=['tconst'])
+#print(len(floatdf.index))
 del floatdf['endYear']
 del floatdf['originalTitle']
 del floatdf['primaryTitle']
@@ -65,8 +72,8 @@ del floatdf['Unnamed: 0']
 
 def cleantconst(tconst):
 	return int(tconst[2:])
-def uncleartconsts(unclean):
-	return "tt" + str(unclean)
+def uncleartconsts(unclean):	
+	return "tt" + str(unclean).zfill(7)
 def cleanhuman(human):
 	return int(human[2:])
 def uncleanhuman(unclean):
@@ -89,30 +96,46 @@ floatdf['openingweekend'] = floatdf['openingweekend'].astype("int")
 
 # nparray = np.squeeze(np.asarray(nparray0))
 
+testint = random.randint(0, len(floatdf.index))
+
 x2 = floatdf.as_matrix()
 
-x_0 = floatdf.copy()
+x_0 = floatdf.drop_duplicates(subset=['tconst'])
 
 del x_0['openingweekend']
 
-x = x_0.as_matrix()
+y_0 = floatdf['openingweekend']
 
-# print(x[38])
 
-y = floatdf['openingweekend'].as_matrix()
+X_test = x_0.loc[testint].reshape(1, -1)
+y_test = y_0.loc[testint].reshape(1, -1)
 
-X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.1)
+# x_0.drop(x_0.index[testint])
+
+# y_0.drop(y_0.index[testint])
+
+x = x_0.drop(testint).as_matrix()
+y = y_0.drop(testint).as_matrix()
+
+
+
+# print(x)
+X_train = x.copy()
+y_train = y.copy()
+# print(X_train)
+
+#X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.1)
 
 # print(X_train[38])
 
-print("data properly formatted")
+print("End Merging and Formaing Data")
 
 #Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History(10),Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western(20),budget,runtimeMinutes,startYear,tconst
 
 
 def movieDistance(x,y):
 	year = 1*abs(x[23]-y[23])
-	budget = abs(x[21]-y[21])/100000
+	budget = abs(x[21]-y[21])/10000000
 	genre = 0
 	for i in range(21):
 		index = i
@@ -127,38 +150,33 @@ def movieDistance(x,y):
 	for hum in xhumans:
 		if hum in yhumans:
 			humans += -40
-	
-	# year = 1*abs(x[4]-y[4])
-	# budget = abs(x[26]-y[26])/100000
-	# genre = 0
-	# for i in range(20):
-	# 	index = i + 5
-	# 	genre += abs(x[index]-y[index])
-	# genre = genre*10
-
-	# xhumans = [x[27],x[28],x[29],x[30],x[31]]
-	# yhumans = [y[27],y[28],y[29],y[30],y[31]]
-
-	# humans = 0
-
-	# for hum in xhumans:
-	# 	if hum in yhumans:
-	# 		humans += -20
-
-	#print("********")
-	# print(x)
-	# print(y)
-	# print(x[26])
-	# print(y[26])
-	# print(len(x))
-	# print("**")
-	# print(year)
-	# print(budget)
-	# print(genre)
-	# print(humans)
-	# print(year + budget + genre + humans)
 
 	return (year + budget + genre + humans)
+
+def movieDistanceExp(x,y):
+	print("")
+	print("Distance analysis:")
+	year = 1*abs(x[23]-y[23])
+	print("This neighbor was producted " + str(year) + " years apart from the given movie")
+	budget = abs(x[21]-y[21])/100000
+	percentdif = ((x[21] - y[21])/y[21])*100
+	print("The budgets were "+ str(abs(percentdif)) + "%" + " percent different")
+	genre = 0
+	for i in range(21):
+		index = i
+		genre += abs(x[index]-y[index])
+	print("This neighbor had " + str(genre) + " genres in common with the given movie")
+
+	xhumans = [x[25],x[26],x[27],x[28],x[29]]
+	yhumans = [y[25],y[26],y[27],y[28],y[29]]
+
+	humans = 0
+
+	for hum in xhumans:
+		if hum in yhumans:
+			humans += 1
+
+	print("This neighbor had " + str(humans) + " actors in common with the given movie")
 
 # nbrs = NearestNeighbors(n_neighbors=4, algorithm='auto', metric=movieDistance)
 
@@ -172,13 +190,15 @@ def movieDistance(x,y):
 
 # print(nbrs.kneighbors([[1., 1., 1.]])) 
 
-nbrsreg = KNeighborsRegressor(n_neighbors=5, metric=movieDistance)
+nbrsreg = KNeighborsRegressor(n_neighbors=5, weights='distance', metric=movieDistance)
+expnbrsreg = NearestNeighbors(n_neighbors=5, metric=movieDistance)
 
-print("START FIT")
+print("Start Fit")
 
 nbrsreg.fit(X_train,y_train)
+expnbrsreg.fit(X_train)
 
-print("START PREDICTION")
+print("Start Perdiction")
 
 ow_perdiction = nbrsreg.predict(X_test)
 
@@ -197,13 +217,34 @@ it = np.nditer(ow_perdiction, flags=["c_index"])
 
 while not it.finished:
 	percentdiff = (ow_perdiction[it.index] - y_test[it.index])/y_test[it.index]
-	if (abs(percentdiff)) < 1:
-		results.append(abs(percentdiff))
+	#if (abs(percentdiff)) < 1:
+	results.append(abs(percentdiff))
 	it.iternext()
 	
-#print(results)
-print("average percent error:")
+print("")
+print("Begin Results:")
+print("Movie being perdicted")
+print(X_test[0])
+print("http://www.imdb.com/title/" + uncleartconsts(X_test[0][24]) +'/')
+print("")
+print("Perdicted Opening Weekend revenue: " + str(locale.currency(ow_perdiction[0], grouping=True)) )
+print("percent error:")
 print(sum(results)/len(results))
+print("")
+print("The Nearest Neighbor used to make perdiction:")
+nneih_indexs = expnbrsreg.kneighbors(X_test,5)[1]
+
+for (x,y), nindex in np.ndenumerate(nneih_indexs):
+	print("Neighbor #"+str(y+1)+":")
+	print(nindex)
+	print(X_train[nindex])
+	print("")
+	print("http://www.imdb.com/title/" + uncleartconsts(X_train[nindex][24]) +'/')
+	print("This Neighbor's Opening Weekend Revenue: " + str(locale.currency(y_train[nindex], grouping=True)))
+	print("The Nearest Neighbor distance: " + str(movieDistance(X_test[0],X_train[nindex])))
+	movieDistanceExp(X_test[0],X_train[nindex])
+	print("")
+	print("")
 
 
 
