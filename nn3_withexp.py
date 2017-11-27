@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 import random
 import pandas as pd
 import locale
+
 locale.setlocale( locale.LC_ALL, '' )
 pd.options.mode.chained_assignment = None
 
@@ -231,12 +232,12 @@ print("Perdicted Opening Weekend revenue: " + str(locale.currency(ow_perdiction[
 print("percent error:")
 print(sum(results)/len(results))
 print("")
-print("The Nearest Neighbor used to make perdiction:")
+print("The Nearest Neighbors used to make perdiction:")
 nneih_indexs = expnbrsreg.kneighbors(X_test,5)[1]
 
 for (x,y), nindex in np.ndenumerate(nneih_indexs):
 	print("Neighbor #"+str(y+1)+":")
-	print(nindex)
+	#sprint(nindex)
 	print(X_train[nindex])
 	print("")
 	print("http://www.imdb.com/title/" + uncleartconsts(X_train[nindex][24]) +'/')
