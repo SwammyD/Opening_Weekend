@@ -11,20 +11,26 @@ import pandas as pd
 from scipy.optimize import minimize
 import pickle
 import hashlib
+from sklearn.model_selection import KFold
+from sklearn.metrics import mean_absolute_error
+import locale
 
-# prejoined = pd.read_csv("joined_100.csv")
-# actors = pd.read_csv("/Users/matthewgriswold/Desktop/Year4/EECS338/IMDB_Files/title.principals.tsv", delimiter='\t')
+#*************************************************
+#Do you want to recalculate the nearest neighbor weights? It will take a long time!
+reoptimizeweights = False
+#*************************************************
+
 
 newdata = pickle.load(open("data.p", "rb"))
 
 def cleantconst(tconst):
 	return int(tconst[2:])
 def uncleartconsts(unclean):
-	return "tt" + str(unclean)
+	return "tt" + str(unclean).zfill(7)
 def cleanhuman(human):
 	return int(human[2:])
 def uncleanhuman(unclean):
-	return "nm" + str(unclean)
+	return "nm" + str(unclean).zfill(7)
 
 x = []
 y = []
@@ -142,9 +148,9 @@ for movie in newdata:
 xx = np.array(x, dtype=object)
 yy = np.array(y, dtype=float)
 
-X_train, X_test, y_train, y_test = train_test_split(xx, yy.reshape(-1, 1), test_size=0.2)
-
-# print(X_train[38])
+#X_train, X_test, y_train, y_test = train_test_split(xx, yy.reshape(-1, 1), test_size=0.2)
+#kf = KFold(n_splits=5, random_state=None, shuffle=False)
+kf = KFold(n_splits=5)
 
 print("data properly formatted")
 
@@ -197,7 +203,12 @@ def movieDistance(x,y):
 	avg = abs(x[14] - y[14])
 	highest = abs(x[15] - y[15])
 
-	return (runtime*runtimecof + production*productioncof + total_gross*total_grosscof + total_theaters*total_theaterscof + month*monthcof + genre*genrecof + humans*humanscof + avg*avgcof + highestcof*highest)
+	disresult = (runtime*runtimecof + production*productioncof + total_gross*total_grosscof + total_theaters*total_theaterscof + month*monthcof + genre*genrecof + humans*humanscof + avg*avgcof + highestcof*highest)
+
+	if disresult < 0:
+		disresult = 0
+
+	return disresult
 
 def runnn(x):
 
@@ -221,37 +232,100 @@ def runnn(x):
 	global highestcof
 	highestcof = x[8]
 
-	nbrsreg = KNeighborsRegressor(n_neighbors=4, weights='distance', metric=movieDistance)
+	kfolds = 0
+	crossvalscores = []
 
-	#print("START FIT")
+	for train_index, test_index in kf.split(xx):
+
+		#print("TRAIN:", train_index, "TEST:", test_index)
+
+		X_train, X_test = xx[train_index], xx[test_index]
+		y_train, y_test = yy[train_index], yy[test_index]
+
+		kfolds += 1
+
+		nbrsreg = KNeighborsRegressor(n_neighbors=4, weights='distance', metric=movieDistance)
+
+		#print("START FIT")
+
+		nbrsreg.fit(X_train,y_train)
+
+		#print("START PREDICTION")
+
+		ow_perdiction = nbrsreg.predict(X_test)
+
+		results = []
+
+		it = np.nditer(ow_perdiction, flags=["c_index"])
+
+
+		while not it.finished:
+			percentdiff = (ow_perdiction[it.index] - y_test[it.index])/y_test[it.index]
+			results.append(abs(percentdiff))
+			it.iternext()
+			
+		#print(results)
+		#print("average percent error:")
+		# print(mean_absolute_error(y_test,ow_perdiction))
+		# print(sum(results)/len(results))
+		crossvalscores.append((sum(results)/len(results)))
+
+	# print("******* kfolds:",kfolds," ***********")
+	# print(crossvalscores)
+	# print(sum(crossvalscores)/len(crossvalscores))
+	return sum(crossvalscores)/len(crossvalscores)
+
+def optmizeNN():
+	print("Begining Optimization of Weights")
+	x0 = np.array([.7, 1.8, .1, .9, 1, 1.5, 2, .2, .2])
+	# 'eps': 1
+	res = minimize(runnn, x0, method='SLSQP', options={'eps': .1,'disp': True})
+	print(res.x)
+	pickle.dump( res.x, open( "nnweights.p", "wb" ) )
+	return res.x
+
+weights = []
+
+if (!reoptimizeweights):
+	try:
+		weights = pickle.load(open("nnweights.p", "rb"))
+	except:
+		print("Error Loading Previously Calculated Weights. Computing them again. This might take a little bit")
+		weights = optmizeNN()
+else:
+	weights = optmizeNN()
+
+
+runtimecof = weights[0]
+productioncof = weights[1]
+total_grosscof = weights[2]
+total_theaterscof = weights[3]
+monthcof = weights[4]
+genrecof = weights[5]
+humanscof = weights[6]
+avgcof = weights[7]
+highestcof = weights[8]
+
+def explain():
+
+	print("Weights are: ",weights)
+	
+	index = random.randint(0, len(x))
+
+	X_test = np.array(x[index]).reshape(1, -1)
+	y_test = np.array(y[index]).reshape(1, -1)
+	x.pop(index)
+	y.pop(index)
+
+	X_train = np.array(x, dtype=object)
+	y_train = np.array(y, dtype=float)
+
+	nbrsreg = KNeighborsRegressor(n_neighbors=4, weights='distance', metric=movieDistance)
+	expnbrsreg = NearestNeighbors(n_neighbors=4, metric=movieDistance)
 
 	nbrsreg.fit(X_train,y_train)
+	expnbrsreg.fit(X_train)
 
-	#print("START PREDICTION")
-
-	ow_perdiction = nbrsreg.predict(X_test)
-
-
-	results = []
-
-	it = np.nditer(ow_perdiction, flags=["c_index"])
-
-
-	while not it.finished:
-		percentdiff = (ow_perdiction[it.index] - y_test[it.index])/y_test[it.index]
-		results.append(abs(percentdiff))
-		it.iternext()
-		
-	#print(results)
-	#print("average percent error:")
-	print(sum(results)/len(results))
-	return (sum(results)/len(results))
-
-
-x0 = np.array([.7, 1.8, .1, .9, 1, 1.5, 2, .2, .2])
-# 'eps': 1
-res = minimize(runnn, x0, method='SLSQP', options={'eps': .1,'disp': True})
-
-print(res.x)
+	for (x,y), nindex in np.ndenumerate(nneih_indexs):
 
 
