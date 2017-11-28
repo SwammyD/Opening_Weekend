@@ -8,6 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import random
 import pandas as pd
+from scipy.optimize import minimize
 
 prejoined = pd.read_csv("joined_100.csv")
 actors = pd.read_csv("/Users/matthewgriswold/Desktop/Year4/EECS338/IMDB_Files/title.principals.tsv", delimiter='\t')
@@ -101,9 +102,7 @@ x = x_0.as_matrix()
 
 y = floatdf['openingweekend'].as_matrix()
 
-print(y)
-
-X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.1)
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
 # print(X_train[38])
 
@@ -111,14 +110,20 @@ print("data properly formatted")
 
 #Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,History(10),Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western(20),budget,runtimeMinutes,startYear,tconst
 
+yearcof = 1
+budgetcof = 1
+genrecof = 1
+humanscof = 1
 
 def movieDistance(x,y):
 	year = 1*abs(x[23]-y[23])
 	budget = abs(x[21]-y[21])/100000
-	genre = 0
+	genre = 20
 	for i in range(21):
 		index = i
-		genre += abs(x[index]-y[index])
+		# genre += abs(x[index]-y[index])
+		if abs(x[index]+y[index]) is 2:
+			genre -= 1
 	genre = genre*10
 
 	xhumans = [x[25],x[26],x[27],x[28],x[29]]
@@ -129,87 +134,52 @@ def movieDistance(x,y):
 	for hum in xhumans:
 		if hum in yhumans:
 			humans += -40
-	
-	# year = 1*abs(x[4]-y[4])
-	# budget = abs(x[26]-y[26])/100000
-	# genre = 0
-	# for i in range(20):
-	# 	index = i + 5
-	# 	genre += abs(x[index]-y[index])
-	# genre = genre*10
 
-	# xhumans = [x[27],x[28],x[29],x[30],x[31]]
-	# yhumans = [y[27],y[28],y[29],y[30],y[31]]
+	return (year*yearcof + budget*budgetcof + genre*genrecof + humans*humanscof)
 
-	# humans = 0
+def runnn(x):
 
-	# for hum in xhumans:
-	# 	if hum in yhumans:
-	# 		humans += -20
+	print(x)
+	global yearcof
+	yearcof = x[0]
+	global budgetcof
+	budgetcof = x[1]
+	global genrecof
+	genrecof = x[2]
+	global humanscof
+	humanscof = x[3]
 
-	#print("********")
-	# print(x)
-	# print(y)
-	# print(x[26])
-	# print(y[26])
-	# print(len(x))
-	# print("**")
-	# print(year)
-	# print(budget)
-	# print(genre)
-	# print(humans)
-	# print(year + budget + genre + humans)
+	nbrsreg = KNeighborsRegressor(n_neighbors=4, weights='distance', metric=movieDistance)
 
-	return (year + budget + genre + humans)
+	#print("START FIT")
 
-# nbrs = NearestNeighbors(n_neighbors=4, algorithm='auto', metric=movieDistance)
+	nbrsreg.fit(X_train,y_train)
 
-# test2 = []
+	#print("START PREDICTION")
 
-# for i in range(9):
-# 	random = randint(0,len(x2))
-# 	test2.append(x2[random])
+	ow_perdiction = nbrsreg.predict(X_test)
 
-# nbrs.fit(x2)
 
-# print(nbrs.kneighbors([[1., 1., 1.]])) 
+	results = []
 
-nbrsreg = KNeighborsRegressor(n_neighbors=5, metric=movieDistance)
+	it = np.nditer(ow_perdiction, flags=["c_index"])
 
-print("START FIT")
 
-nbrsreg.fit(X_train,y_train)
-
-print("START PREDICTION")
-
-ow_perdiction = nbrsreg.predict(X_test)
-
-# print("regression perdiction:")
-# print(ow_perdiction)
-# print("actual restults:")
-# print(y_test)
-
-results = []
-
-it = np.nditer(ow_perdiction, flags=["c_index"])
-
-# for x,y in np.ndenumerate(ow_perdiction):
-# 	percentdiff = (ow_perdiction[x,y] - ytest[x,y])/ytest[x,y]
-# 	results.append(percentdiff)
-
-while not it.finished:
-	percentdiff = (ow_perdiction[it.index] - y_test[it.index])/y_test[it.index]
-	if (abs(percentdiff)) < 1:
+	while not it.finished:
+		percentdiff = (ow_perdiction[it.index] - y_test[it.index])/y_test[it.index]
 		results.append(abs(percentdiff))
-	it.iternext()
-	
-#print(results)
-print("average percent error:")
-print(sum(results)/len(results))
+		it.iternext()
+		
+	#print(results)
+	#print("average percent error:")
+	print(sum(results)/len(results))
+	return (sum(results)/len(results))
 
 
+x0 = np.array([1.1, 0.5, 1, 2])
+# 'eps': 1
+res = minimize(runnn, x0, method='SLSQP', options={'eps': 1,'disp': True})
 
-
-
+print(res.x)
 
 
