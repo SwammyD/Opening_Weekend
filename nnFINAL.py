@@ -20,7 +20,6 @@ import locale
 reoptimizeweights = False
 #*************************************************
 
-
 newdata = pickle.load(open("data.p", "rb"))
 
 def cleantconst(tconst):
@@ -309,7 +308,7 @@ highestcof = weights[8]
 def explain():
 
 	print("Weights are: ",weights)
-	
+
 	index = random.randint(0, len(x))
 
 	X_test = np.array(x[index]).reshape(1, -1)
@@ -325,6 +324,9 @@ def explain():
 
 	nbrsreg.fit(X_train,y_train)
 	expnbrsreg.fit(X_train)
+
+	ow_perdiction = nbrsreg.predict(X_test)
+	percentdiff = (ow_perdiction[0] - y_test[0])/y_test[0]
 
 	for (x,y), nindex in np.ndenumerate(nneih_indexs):
 
