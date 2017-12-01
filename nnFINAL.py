@@ -17,6 +17,7 @@ import locale
 
 #*************************************************
 #Do you want to recalculate the nearest neighbor weights? It will take a long time!
+#setting this boolean will determin if it reoptimizes the weights
 reoptimizeweights = False
 #*************************************************
 
@@ -305,6 +306,7 @@ humanscof = weights[6]
 avgcof = weights[7]
 highestcof = weights[8]
 
+#this is the fuction that when called will pull an movie out of the dataset and perdict it's reveune and explain the perdiction
 def explain():
 
 	print("Weights are: ",weights)
@@ -328,6 +330,14 @@ def explain():
 	ow_perdiction = nbrsreg.predict(X_test)
 	percentdiff = (ow_perdiction[0] - y_test[0])/y_test[0]
 
+	#at this point its pulled the movie and run the model
+	#X_test is the moive it perdited X_test is an array of attibutes about the movie. uncleartconsts(X_test[0][0]) will give you the tconsts which can be used to constribut teh url to the imdb page. check out nn3_with exp for other possibilty about the X_test
+	#print("http://www.imdb.com/title/" + uncleartconsts(X_test[0][0]) +'/') should be the url for the movoie
+	#this is the scheme for each "movie" instance which is an array of attributes of a moive: #tconst,runtime,genres,production company, total_gross, total theaters, month, actor1,actor2,actor,3,actor4,actor5,actor6,actor,7,bestavg,besthighest,21 geners
+
 	for (x,y), nindex in np.ndenumerate(nneih_indexs):
+		#this loop will iterate 4 times with the 4 nearest neibhor used to make the perdiction 
+		#X_train[nindex] will yeild the same nearest neibhor in question as with X_test its a array of attributes 
+		#print("http://www.imdb.com/title/" + uncleartconsts(X_train[nindex][0]) +'/')
 
 
