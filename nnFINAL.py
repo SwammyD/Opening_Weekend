@@ -31,131 +31,11 @@ def cleanhuman(human):
 	return int(human[2:])
 def uncleanhuman(unclean):
 	return "nm" + str(unclean).zfill(7)
-
-x = []
-y = []
-#tconst,runtime,genres,production company, total_gross, total theaters, month, actor1,actor2,actor,3,actor4,actor5,actor6,actor,7,bestavg,besthighest,21 geners
-for movie in newdata:
-	y.append(movie[7])
-	actors = movie[10]
-	newactors = []
-	production_company = movie[4]
-	new = [cleantconst(movie[0]),movie[2],int(hashlib.sha256(production_company.encode('utf-8')).hexdigest(), 16) % 10**8,movie[5],movie[6],movie[8],int(movie[9][5:7])]
-	bestavg = 0
-	besthighest = 0
-	for actor in actors[:7]:
-		#,actor[7],actor[9]
-		new.append(cleanhuman(actor[0]))
-		if actor[7] > bestavg:
-			bestavg = actor[7]
-			besthighest = actor[9]
-
-	if len(actors) < 7:
-
-		for i in range(7-len(actors)):
-			new.append(0)
-
-	new.append(bestavg)
-	new.append(besthighest)
-
-	if "Action" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Adventure" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Animation" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Biography" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Comedy" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Crime" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Documentary" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Drama" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Family" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Fantasy" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "History" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Horror" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Music" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Musical" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Mystery" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Romance" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Sci-Fi" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Sport" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Thriller" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "War" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	if "Western" in movie[3]:
-		new.append(1)
-	else: 
-		new.append(0)
-	x.append(new)
-
-
-xx = np.array(x, dtype=object)
-yy = np.array(y, dtype=float)
-
-#X_train, X_test, y_train, y_test = train_test_split(xx, yy.reshape(-1, 1), test_size=0.2)
-#kf = KFold(n_splits=5, random_state=None, shuffle=False)
-kf = KFold(n_splits=5)
-
-print("data properly formatted")
-
-#tconst,runtime,genres,production company, total_gross, total theaters, month, actor1,actor2,actor,3,actor4,actor5,actor6,actor,7,bestavg,besthighest,21 geners
-
+#global vars
+xlist = []
+ylist = []
+xx =  None
+yy =  None
 runtimecof = 1
 productioncof = 1
 total_grosscof = 1
@@ -165,6 +45,137 @@ genrecof = 1
 humanscof = 1
 avgcof = 1
 highestcof = 1
+kf = KFold(n_splits=5)
+
+#tconst,runtime,genres,production company, total_gross, total theaters, month, actor1,actor2,actor,3,actor4,actor5,actor6,actor,7,bestavg,besthighest,21 geners
+def initdata():
+	x = []
+	y = []
+	for movie in newdata:
+		y.append(movie[7])
+		actors = movie[10]
+		newactors = []
+		production_company = movie[4]
+		new = [cleantconst(movie[0]),movie[2],int(hashlib.sha256(production_company.encode('utf-8')).hexdigest(), 16) % 10**8,movie[5],movie[6],movie[8],int(movie[9][5:7])]
+		bestavg = 0
+		besthighest = 0
+		for actor in actors[:7]:
+			#,actor[7],actor[9]
+			new.append(cleanhuman(actor[0]))
+			if actor[7] > bestavg:
+				bestavg = actor[7]
+				besthighest = actor[9]
+
+		if len(actors) < 7:
+
+			for i in range(7-len(actors)):
+				new.append(0)
+
+		new.append(bestavg)
+		new.append(besthighest)
+
+		if "Action" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Adventure" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Animation" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Biography" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Comedy" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Crime" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Documentary" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Drama" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Family" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Fantasy" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "History" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Horror" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Music" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Musical" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Mystery" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Romance" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Sci-Fi" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Sport" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Thriller" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "War" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		if "Western" in movie[3]:
+			new.append(1)
+		else: 
+			new.append(0)
+		x.append(new)
+
+	global xx
+	xx = np.array(x, dtype=object)
+	global yy
+	yy = np.array(y, dtype=float)
+	global xlist
+	xlist = x
+	global ylist
+	ylist = y
+
+
+	#X_train, X_test, y_train, y_test = train_test_split(xx, yy.reshape(-1, 1), test_size=0.2)
+	#kf = KFold(n_splits=5, random_state=None, shuffle=False)
+
+	print("data properly formatted")
+
+#tconst,runtime,genres,production company, total_gross, total theaters, month, actor1,actor2,actor,3,actor4,actor5,actor6,actor,7,bestavg,besthighest,21 geners
 
 def movieDistance(x,y):
 	#runtime
@@ -284,30 +295,47 @@ def optmizeNN():
 	pickle.dump( res.x, open( "nnweights.p", "wb" ) )
 	return res.x
 
-weights = []
 
-if (!reoptimizeweights):
-	try:
-		weights = pickle.load(open("nnweights.p", "rb"))
-	except:
-		print("Error Loading Previously Calculated Weights. Computing them again. This might take a little bit")
+
+def init():
+
+	weights = []
+
+	initdata()
+
+	if (!reoptimizeweights):
+		try:
+			weights = pickle.load(open("nnweights.p", "rb"))
+		except:
+			print("Error Loading Previously Calculated Weights. Computing them again. This might take a little bit")
+			weights = optmizeNN()
+	else:
 		weights = optmizeNN()
-else:
-	weights = optmizeNN()
 
-
-runtimecof = weights[0]
-productioncof = weights[1]
-total_grosscof = weights[2]
-total_theaterscof = weights[3]
-monthcof = weights[4]
-genrecof = weights[5]
-humanscof = weights[6]
-avgcof = weights[7]
-highestcof = weights[8]
+	global runtimecof
+	runtimecof = weights[0]
+	global productioncof
+	productioncof = weights[1]
+	global total_grosscof
+	total_grosscof = weights[2]
+	global total_theaterscof
+	total_theaterscof = weights[3]
+	global monthcof
+	monthcof = weights[4]
+	global genrecof
+	genrecof = weights[5]
+	global humanscof
+	humanscof = weights[6]
+	global avgcof
+	avgcof = weights[7]
+	global highestcof
+	highestcof = weights[8]
 
 #this is the fuction that when called will pull an movie out of the dataset and perdict it's reveune and explain the perdiction
 def explain():
+
+	x = xlist
+	y = ylist
 
 	print("Weights are: ",weights)
 
@@ -315,7 +343,7 @@ def explain():
 
 	X_test = np.array(x[index]).reshape(1, -1)
 	y_test = np.array(y[index]).reshape(1, -1)
-	x.pop(index)
+	xlist.pop(index)
 	y.pop(index)
 
 	X_train = np.array(x, dtype=object)
