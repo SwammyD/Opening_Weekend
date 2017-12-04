@@ -26,11 +26,11 @@ newdata = pickle.load(open("data.p", "rb"))
 def cleantconst(tconst):
 	return int(tconst[2:])
 def uncleartconsts(unclean):
-	return "tt" + str(unclean).zfill(7)
+	return "tt" + str(int(unclean.zfill(7)))
 def cleanhuman(human):
 	return int(human[2:])
 def uncleanhuman(unclean):
-	return "nm" + str(unclean).zfill(7)
+	return "nm" + str(int(unclean.zfill(7)))
 #global vars
 xlist = []
 ylist = []
