@@ -363,6 +363,7 @@ def explain():
 	#print("http://www.imdb.com/title/" + uncleartconsts(X_test[0][0]) +'/') should be the url for the movoie
 	#this is the scheme for each "movie" instance which is an array of attributes of a moive: #tconst,runtime,genres,production company, total_gross, total theaters, month, actor1,actor2,actor,3,actor4,actor5,actor6,actor,7,bestavg,besthighest,21 geners
 
+	nneih_indexs = expnbrsreg.kneighbors(X_test,4)[1]
 	for (x,y), nindex in np.ndenumerate(nneih_indexs):
 		#this loop will iterate 4 times with the 4 nearest neibhor used to make the perdiction 
 		#X_train[nindex] will yeild the same nearest neibhor in question as with X_test its a array of attributes 
